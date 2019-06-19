@@ -42,4 +42,12 @@ public class WebControllerTest {
 //        System.out.println("result : "+responseStringnew);
 
     }
+
+    @Test
+    public void saveUsers() throws Exception {
+        mockMvc.perform(MockMvcRequestBuilders.post("/saveUser")
+                .param("name","")
+                .param("age","666")
+                .param("pass","test"));
+    }
 }

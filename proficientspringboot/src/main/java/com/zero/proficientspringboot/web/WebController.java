@@ -1,11 +1,14 @@
 package com.zero.proficientspringboot.web;
 
 import com.zero.proficientspringboot.model.User;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -56,5 +59,16 @@ public class WebController {
     @RequestMapping(value="get/{name}", method=RequestMethod.GET)
     public String get(@PathVariable String name) {
         return name;
+    }
+
+    @RequestMapping("saveUser")
+    public void saveUser(@Valid User user, BindingResult result){
+        System.out.println("User :" + user);
+        if ( result.hasErrors() ) {
+            List<ObjectError> list = result.getAllErrors();
+            for (ObjectError error : list) {
+                System.out.println(error.getCode() + "-" + error.getDefaultMessage());
+            }
+        }
     }
 }
