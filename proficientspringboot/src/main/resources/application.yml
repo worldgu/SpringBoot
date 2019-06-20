@@ -1,3 +1,9 @@
 neo:
     title: Zero
     description: 分享技术，品味生活
+
+spring:
+    mvc:
+        view:
+            prefix: /WEB-INF/JSP/
+            suffix: .jsp

@@ -7,7 +7,7 @@
     <groupId>com.zero</groupId>
     <artifactId>proficientspringboot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>War</packaging>
     <name>proficientspringboot</name>
     <description>Demo project for Spring Boot</description>
 
@@ -59,6 +59,21 @@
             <artifactId>spring-boot-Devtools</artifactId>
             <optional>true</optional>
         </dependency>
+
+        <!--  使用JSP添加依赖 -->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-web</artifactId>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+        </dependency>
+
     </dependencies>
 
     <!--  构建配置：  -->
