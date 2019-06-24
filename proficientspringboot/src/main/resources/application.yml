@@ -7,3 +7,7 @@ spring:
         view:
             prefix: /WEB-INF/JSP/
             suffix: .jsp
+
+    thymeleaf:
+        cache: false  # 设置为false   关闭Thymeleaf的缓存，
+                      # 不然在开发过程中修改页面不会立刻生效需要重启，生产可配置为 true。
