@@ -1,0 +1,64 @@
+表达式
+
+表达式共分为以下五类。
+
+    变量表达式：${...}
+    选择或星号表达式：*{...}
+    文字国际化表达式：#{...}
+    URL 表达式：@{...}
+    片段表达式：~{...}
+
+
+    变量表达式即 OGNL 表达式或 Spring EL 表达式（在 Spring 术语中也叫 model attributes），类似 ${session.user.name}。
+
+选择（星号）表达式
+    选择表达式很像变量表达式，不过它们用一个预先选择的对象来代替上下文变量容器（map）来执行，类似：*{customer.name}。
+
+文字国际化表达式
+
+    文字国际化表达式允许我们从一个外部文件获取区域文字信息（.properties），用 Key 索引 Value，还可以提供一组参数（可选）。
+
+    URL 表达式指的是把一个有用的上下文或回话信息添加到 URL，这个过程经常被叫做 URL 重写，比如@{/order/list}。
+        URL 还可以设置参数：@{/order/details(id=${orderId})}
+        相对路径：@{../documents/report}
+
+    片段表达式是 3.x 版本新增的内容。片段表达式是一种标记的片段，并将其移动到模板中的方法。片段表达式的优势是，片段可以被复制或者作为参数传递给其他模板等。
+
+    表达式支持的语法
+
+    标签的优先级:
+                include,each,if/unless/switch/case,with,attr/attrprepend/attrappend,value/href,src ,etc,text/utext,fragment,remove。
+
+
+
+    字面（Literals）
+
+    文本文字（Text literals）：'one text', 'Another one!',…
+    数字文本（Number literals）：0, 34, 3.0, 12.3,…
+    布尔文本（Boolean literals）：true, false
+    空（Null literal）：null
+    文字标记（Literal tokens）：one, sometext, main,…
+    文本操作（Text operations）
+
+    字符串连接（String concatenation）：+
+    文本替换（Literal substitutions）：|The name is ${name}|
+    算术运算（Arithmetic operations）
+
+    二元运算符（Binary operators）：+, -, *, /, %
+    减号（单目运算符）Minus sign（unary operator）：-
+    布尔操作（Boolean operations）
+
+    二元运算符（Binary operators）：and, or
+    布尔否定（一元运算符）Boolean negation (unary operator)：!, not
+    比较和等价（Comparisons and equality）
+
+    比较（Comparators）：>, <, >=, <= (gt, lt, ge, le)
+    等值运算符（Equality operators）：==, != (eq, ne)
+    条件运算符（Conditional operators）
+
+    If-then：(if) ? (then)
+    If-then-else：(if) ? (then) : (else)
+    Default: (value) ?：(defaultvalue)
+
+
+

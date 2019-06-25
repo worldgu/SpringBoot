@@ -6,9 +6,32 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
+/**  =======  基本对象
+ * #ctx：上下文对象
+ * #vars：上下文变量
+ * #locale：区域对象
+ * #request：（仅 Web 环境可用）HttpServletRequest 对象
+ * #response：（仅 Web 环境可用）HttpServletResponse 对象
+ * #session：（仅 Web 环境可用）HttpSession 对象
+ * #servletContext：（仅 Web 环境可用）ServletContext 对象
+ *
+ * ======   内嵌变量  Thymeleaf 还提供了一系列Utility 对象(内置于Context中)通过 # 直接访问
+ * dates：java.util.Date 的功能方法类
+ * calendars：类似 #dates，面向 java.util.Calendar
+ * numbers：格式化数字的功能方法类
+ * strings：字符串对象的功能类，contains、startWiths、prepending/appending 等
+ * objects：对 objects 的功能类操作
+ * bools：对布尔值求值的功能方法
+ * arrays：对数组的功能类方法
+ * lists：对 lists 的功能类方法
+ * sets：set 的实用方法
+ * maps：map 的实用方法
+ * */
 /**
  * @author ：Zero
  * @date ：Created in 2019/6/20 22:03
@@ -62,6 +85,29 @@ public class ThymeleafHello {
         map.addAttribute("sex", "woman");
         return "switch";
     }
+
+    @RequestMapping("/inline")
+    public String inline(ModelMap map) {
+        map.addAttribute("userName", "neo");
+        return "inline";
+    }
+
+    @RequestMapping("/object")
+    public String object(HttpServletRequest request){
+        request.setAttribute("request","i am request");
+        request.getSession().setAttribute("session","i am session");
+        return "object";
+    }
+
+    @RequestMapping("/utility")
+    public String utility(ModelMap map){
+        map.addAttribute("userName","Zero");
+        map.addAttribute("users",getUserList());
+        map.addAttribute("count",12);
+        map.addAttribute("date",new Date());
+        return "utility";
+    }
+
 
     private List<User> getUserList(){
         List<User> list=new ArrayList<User>();
