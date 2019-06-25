@@ -1,0 +1,15 @@
+spring:
+  servlet:
+    multipart:
+      # 支持的最大文件
+      max-file-size: 100MB
+      # 文件请求最大限制
+      max-request-size: 100MB
+
+# 文件上传的相关配置
+#  spring.servlet.multipart.enabled=true，是否支持 multipart 上传文件
+#  spring.servlet.multipart.file-size-threshold=0，支持文件写入磁盘
+#  spring.servlet.multipart.location=，上传文件的临时目录
+#  spring.servlet.multipart.max-file-size=10Mb，最大支持文件大小
+#  spring.servlet.multipart.max-request-sizee=10Mb，最大支持请求大小
+#  spring.servlet.multipart.resolve-lazily=false，是否支持 multipart 上传文件时懒加载
