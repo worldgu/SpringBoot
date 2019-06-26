@@ -29,11 +29,11 @@ public class PropertiesTest {
 
     @Test
     public void testSingle() {
-        Assert.assertEquals(title,"Zero");
+        Assert.assertEquals(title, "Zero");
     }
 
     @Test
-    public void testMore () throws Exception {
+    public void testMore() throws Exception {
         System.out.println("title:" + properties.getTitle());
         System.out.println("description:" + properties.getDescription());
     }

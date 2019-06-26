@@ -21,7 +21,7 @@ public class MyFilter2 implements Filter {
         // TODO Auto-generated method stub
         HttpServletRequest request = (HttpServletRequest) srequest;
         System.out.println("this is MyFilter2,url :" + request.getRequestURI());
-        chain.doFilter(srequest,sresponse);
+        chain.doFilter(srequest, sresponse);
     }
 
     @Override

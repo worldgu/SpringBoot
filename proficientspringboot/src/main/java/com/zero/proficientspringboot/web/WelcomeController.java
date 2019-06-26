@@ -18,18 +18,18 @@ import java.util.Map;
 public class WelcomeController {
 
     @GetMapping("/")
-    public String welcome(Map<String,Object> model) {
-        model.put("time",new Date());
-        model.put("message","Hello World");
+    public String welcome(Map<String, Object> model) {
+        model.put("time", new Date());
+        model.put("message", "Hello World");
         return "welcome";
 
     }
 
     @GetMapping("/user")
-    public String user(Map<String,Object> model, HttpServletRequest request){
-        model.put("username","neo");
-        model.put("salary",666);
-        request.getSession().setAttribute("count",6);
+    public String user(Map<String, Object> model, HttpServletRequest request) {
+        model.put("username", "neo");
+        model.put("salary", 666);
+        request.getSession().setAttribute("count", 6);
         return "user";
     }
 }

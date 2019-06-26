@@ -32,7 +32,7 @@ public class HelloTest {
     @Before
     public void setUp() throws Exception {
         mockMvc = MockMvcBuilders.
-                    standaloneSetup(new HelloController()).build();
+                standaloneSetup(new HelloController()).build();
     }
 
     @Test
@@ -47,7 +47,7 @@ public class HelloTest {
         mockMvc.perform(MockMvcRequestBuilders.post("/hello?name=小明")
                 .accept(MediaType.APPLICATION_JSON_UTF8))
                 .andExpect(MockMvcResultMatchers.content().
-                            string(Matchers.containsString("111")));
+                        string(Matchers.containsString("111")));
 
     }
 }

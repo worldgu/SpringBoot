@@ -33,9 +33,9 @@ public class UploadController {
 
     @PostMapping("/upload")
     public String singleFileUpload(@RequestParam("file") MultipartFile file,
-                                   RedirectAttributes redirectAttributes){
+                                   RedirectAttributes redirectAttributes) {
         if (file.isEmpty()) {
-            redirectAttributes.addFlashAttribute("message","Please select a file to upload");
+            redirectAttributes.addFlashAttribute("message", "Please select a file to upload");
             return "redirect:uploadStaus";
         }
         try {
@@ -43,10 +43,10 @@ public class UploadController {
             byte[] bytes = file.getBytes();
             // UPLOADED_FOLDER 文件本地存储地址
             Path path = Paths.get(UPLOADED_FOLDER + file.getOriginalFilename());
-            Files.write(path,bytes);
+            Files.write(path, bytes);
 
             redirectAttributes.addFlashAttribute("message",
-                    "You successfully uploaded '" + file.getOriginalFilename() +"'");
+                    "You successfully uploaded '" + file.getOriginalFilename() + "'");
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -57,11 +57,11 @@ public class UploadController {
     @PostMapping("/uploadMore")
     public String moreFileUpload(@RequestParam("file") MultipartFile[] files,
                                  RedirectAttributes redirectAttributes) {
-        if (files.length==0) {
+        if (files.length == 0) {
             redirectAttributes.addFlashAttribute("message", "Please select a file to upload");
             return "redirect:uploadStatus";
         }
-        for(MultipartFile file:files){
+        for (MultipartFile file : files) {
             try {
                 byte[] bytes = file.getBytes();
                 Path path = Paths.get(UPLOADED_FOLDER + file.getOriginalFilename());

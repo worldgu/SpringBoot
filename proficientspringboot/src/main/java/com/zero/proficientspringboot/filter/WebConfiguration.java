@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 public class WebConfiguration {
 
     @Bean
-    public FilterRegistrationBean testFilterRegistration(){
+    public FilterRegistrationBean testFilterRegistration() {
         FilterRegistrationBean registration = new FilterRegistrationBean();
         registration.setFilter(new MyFilter());
         registration.addUrlPatterns("/*");

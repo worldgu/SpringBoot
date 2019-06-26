@@ -12,7 +12,6 @@ import java.io.IOException;
 public class MyFilter implements Filter {
 
 
-
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         // TODO Auto-generated method stub
@@ -23,7 +22,7 @@ public class MyFilter implements Filter {
         // TODO Auto-generated method stub
         HttpServletRequest request = (HttpServletRequest) srequest;
         System.out.println("this is MyFilter,url :" + request.getRequestURI());
-        chain.doFilter(srequest,sresponse);
+        chain.doFilter(srequest, sresponse);
     }
 
     @Override

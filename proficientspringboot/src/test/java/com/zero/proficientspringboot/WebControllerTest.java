@@ -29,11 +29,11 @@ public class WebControllerTest {
         // andReturn().getResponse().getContentAsString(); ”的意思是获取请求的返回信息，并将返回信息转换为字符串，最后将请求的响应结果打印出来。
         String responseString = mockMvc.perform(MockMvcRequestBuilders.post("/getUser"))
                 .andReturn().getResponse().getContentAsString();
-        System.out.println("result : "+responseString);
+        System.out.println("result : " + responseString);
 
         String responseStrings = mockMvc.perform(MockMvcRequestBuilders.get("/getUsers"))
                 .andReturn().getResponse().getContentAsString();
-        System.out.println("result : "+responseStrings);
+        System.out.println("result : " + responseStrings);
 
         //  如何进行对象查询   测试失败
         // TODO  测试失败
@@ -46,8 +46,8 @@ public class WebControllerTest {
     @Test
     public void saveUsers() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.post("/saveUser")
-                .param("name","")
-                .param("age","666")
-                .param("pass","test"));
+                .param("name", "")
+                .param("age", "666")
+                .param("pass", "test"));
     }
 }

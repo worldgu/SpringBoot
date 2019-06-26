@@ -1,37 +1,37 @@
 neo:
-    title: Zero
-    description: 分享技术，品味生活
+  title: Zero
+  description: 分享技术，品味生活
 
 spring:
-    mvc:
-        view:
-            prefix: /WEB-INF/JSP/
-            suffix: .jsp
+  mvc:
+    view:
+      prefix: /WEB-INF/JSP/
+      suffix: .jsp
 
-    thymeleaf:
-        cache: false  # 设置为false   关闭Thymeleaf的缓存，
-                      # 不然在开发过程中修改页面不会立刻生效需要重启，生产可配置为 true。
-        #检查模板是否存在，然后再呈现
-#        check-template: true
-        #检查模板位置是否正确（默认值:true）
-#        check-template-location: true
-        #Content-Type的值（默认值：text/html）
-#        content-type: text/html
-        #开启MVC Thymeleaf视图解析（默认值：true）
-#        enabled: true
-        #模板编码
-#        encoding: utf-8
-        #要被排除在解析之外的视图名称列表，用逗号分隔
-#        excluded-view-names:
-        #要运用于模板之上的模板模式。另见StandardTemplate-ModeHandlers(默认值：HTML5)
-#        mode: HTML5
-        #在构建URL时添加到视图名称前的前缀（默认值：classpath:/templates/）
-#        prefix: classpath:/templates/
-        #在构建URL时添加到视图名称后的后缀（默认值：.html）
-#        suffix: .html
-        #Thymeleaf 模板解析器在解析器链中的顺序，默认情况下，它排第一位，顺序从1开始，只有在定义了额外的 TemplateResolver Bean 时才需要设置这个属性。
-#        template-resolver-order:
-        #可解析的视图名称列表，用逗号分隔
+  thymeleaf:
+    cache: false  # 设置为false   关闭Thymeleaf的缓存，
+    # 不然在开发过程中修改页面不会立刻生效需要重启，生产可配置为 true。
+    #检查模板是否存在，然后再呈现
+    #        check-template: true
+    #检查模板位置是否正确（默认值:true）
+    #        check-template-location: true
+    #Content-Type的值（默认值：text/html）
+    #        content-type: text/html
+    #开启MVC Thymeleaf视图解析（默认值：true）
+    #        enabled: true
+    #模板编码
+    #        encoding: utf-8
+    #要被排除在解析之外的视图名称列表，用逗号分隔
+    #        excluded-view-names:
+    #要运用于模板之上的模板模式。另见StandardTemplate-ModeHandlers(默认值：HTML5)
+    #        mode: HTML5
+    #在构建URL时添加到视图名称前的前缀（默认值：classpath:/templates/）
+    #        prefix: classpath:/templates/
+    #在构建URL时添加到视图名称后的后缀（默认值：.html）
+    #        suffix: .html
+    #Thymeleaf 模板解析器在解析器链中的顺序，默认情况下，它排第一位，顺序从1开始，只有在定义了额外的 TemplateResolver Bean 时才需要设置这个属性。
+    #        template-resolver-order:
+    #可解析的视图名称列表，用逗号分隔
 #        view-names:
 
 

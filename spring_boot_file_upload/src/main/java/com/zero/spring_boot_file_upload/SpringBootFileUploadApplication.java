@@ -14,7 +14,7 @@ public class SpringBootFileUploadApplication {
         SpringApplication.run(SpringBootFileUploadApplication.class, args);
     }
 
-    public TomcatServletWebServerFactory tomcatEmbedded () {
+    public TomcatServletWebServerFactory tomcatEmbedded() {
         //  TomcatServletWebServerFactory() 方法主要是为了解决上传文件大于10M出现连接重置的问题
         //  ，此异常内容 GlobalException 也捕获不到。
         TomcatServletWebServerFactory tomcat = new TomcatServletWebServerFactory();

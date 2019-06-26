@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0e59d0f-bb80-4d7b-b9c0-77c4899fa292" name="Default Changelist" comment="" />
+    <list default="true" id="b0e59d0f-bb80-4d7b-b9c0-77c4899fa292" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-boot-fastdfs/src/main/resources/fdfs_client.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/filter/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/filter/MyFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/filter/MyFilter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/filter/MyFilter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/filter/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/filter/WebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/ThymeleafHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/ThymeleafHello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/indexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/indexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/eq.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/eq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/if.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/if.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/inline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout/left.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout/left.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/object.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/object.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/string.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/string.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/switch.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/switch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/thymeleafHello.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/thymeleafHello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/url.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/url.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/utility.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/utility.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/webapp/WEB-INF/JSP/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/webapp/WEB-INF/JSP/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/webapp/WEB-INF/JSP/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/webapp/WEB-INF/JSP/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/webapp/WEB-INF/JSP/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/webapp/WEB-INF/JSP/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/test/java/com/zero/proficientspringboot/HelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/test/java/com/zero/proficientspringboot/HelloTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/test/java/com/zero/proficientspringboot/PropertiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/test/java/com/zero/proficientspringboot/PropertiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/test/java/com/zero/proficientspringboot/WebControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/test/java/com/zero/proficientspringboot/WebControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_boot_file_upload/src/main/java/com/zero/spring_boot_file_upload/SpringBootFileUploadApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_file_upload/src/main/java/com/zero/spring_boot_file_upload/SpringBootFileUploadApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_boot_file_upload/src/main/java/com/zero/spring_boot_file_upload/web/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_file_upload/src/main/java/com/zero/spring_boot_file_upload/web/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_boot_file_upload/src/main/java/com/zero/spring_boot_file_upload/web/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_file_upload/src/main/java/com/zero/spring_boot_file_upload/web/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_boot_file_upload/src/main/resources/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_file_upload/src/main/resources/templates/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_boot_file_upload/src/main/resources/templates/uploadMore.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_file_upload/src/main/resources/templates/uploadMore.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-fastdfs/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,13 +60,68 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="conf" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HOCON" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="conf" value="355" />
+          <entry key="xml" value="38" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HOCON" value="355" />
+          <entry key="XML" value="38" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-fastdfs/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-fastdfs/src/main/resources/fdfs_client.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spring-boot-fastdfs/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-fastdfs/src/main/resources/fdfs_client.conf" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -29,17 +130,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="158" />
-    <option name="y" value="55" />
+    <option name="x" value="641" />
+    <option name="y" value="187" />
     <option name="width" value="1740" />
-    <option name="height" value="998" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -48,15 +148,39 @@
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="proficientspringboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-fastdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-fastdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_boot_file_upload" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561560462149" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -73,6 +197,15 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="SpringBootFastdfsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-fastdfs" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fastdfs.springbootfastdfs.SpringBootFastdfsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -84,27 +217,28 @@
       <option name="presentableId" value="Default" />
       <updated>1560914132860</updated>
       <workItem from="1560914135351" duration="51000" />
+      <workItem from="1561559397158" duration="981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51000" />
+    <option name="totallyTimeSpent" value="1032000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="55" width="1740" height="998" extended-state="0" />
+    <frame x="641" y="187" width="1740" height="958" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25297618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -112,15 +246,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +267,25 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastdfs/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastdfs/src/main/resources/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

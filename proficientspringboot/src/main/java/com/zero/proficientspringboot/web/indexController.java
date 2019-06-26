@@ -13,12 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class indexController {
 
     @RequestMapping("/index")
-    public String index () {
+    public String index() {
         return "index";
     }
 
     @RequestMapping("/fragment")
-    public String fragment(){
+    public String fragment() {
         return "fragment";
     }
 
