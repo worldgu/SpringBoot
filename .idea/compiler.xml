@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-fastdfs" />
+        <module name="spring-boot-web-restful" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-fastdfs" target="1.8" />
+      <module name="spring-boot-web-restful" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

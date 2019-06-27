@@ -4,10 +4,10 @@
       <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-Devtools/2.1.6.RELEASE/spring-boot-devtools-2.1.6.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-devtools/2.1.6.RELEASE/spring-boot-devtools-2.1.6.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-Devtools/2.1.6.RELEASE/spring-boot-devtools-2.1.6.RELEASE-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-devtools/2.1.6.RELEASE/spring-boot-devtools-2.1.6.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-Devtools/2.1.6.RELEASE/spring-boot-devtools-2.1.6.RELEASE-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

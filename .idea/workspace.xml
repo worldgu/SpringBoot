@@ -2,90 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0e59d0f-bb80-4d7b-b9c0-77c4899fa292" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-fastdfs/src/main/resources/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_boot_web_restful_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_boot_web_restful_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-fastdfs/src/main/java/com/zero/fastdfs/FastDFSClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-fastdfs/src/main/java/com/zero/fastdfs/FastDFSFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/repository/InMemoryMessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/repository/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-web-restful/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-web-restful/src/test/java/com/zero/MessageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_6_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/filter/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/filter/MyFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/filter/MyFilter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/filter/MyFilter2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/filter/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/filter/WebConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/ThymeleafHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/ThymeleafHello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/WelcomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/indexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/java/com/zero/proficientspringboot/web/indexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/eq.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/eq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/if.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/if.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/inline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout/left.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/layout/left.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/object.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/object.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/string.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/string.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/switch.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/switch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/thymeleafHello.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/thymeleafHello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/url.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/url.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/utility.html" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/resources/templates/utility.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/webapp/WEB-INF/JSP/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/webapp/WEB-INF/JSP/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/webapp/WEB-INF/JSP/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/webapp/WEB-INF/JSP/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/main/webapp/WEB-INF/JSP/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/main/webapp/WEB-INF/JSP/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/test/java/com/zero/proficientspringboot/HelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/test/java/com/zero/proficientspringboot/HelloTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/test/java/com/zero/proficientspringboot/PropertiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/test/java/com/zero/proficientspringboot/PropertiesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proficientspringboot/src/test/java/com/zero/proficientspringboot/WebControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proficientspringboot/src/test/java/com/zero/proficientspringboot/WebControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_boot_file_upload/src/main/java/com/zero/spring_boot_file_upload/SpringBootFileUploadApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_file_upload/src/main/java/com/zero/spring_boot_file_upload/SpringBootFileUploadApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_boot_file_upload/src/main/java/com/zero/spring_boot_file_upload/web/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_file_upload/src/main/java/com/zero/spring_boot_file_upload/web/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_boot_file_upload/src/main/java/com/zero/spring_boot_file_upload/web/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_file_upload/src/main/java/com/zero/spring_boot_file_upload/web/UploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_boot_file_upload/src/main/resources/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_file_upload/src/main/resources/templates/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_boot_file_upload/src/main/resources/templates/uploadMore.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_file_upload/src/main/resources/templates/uploadMore.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-fastdfs/src/main/java/com/fastdfs/springbootfastdfs/SpringBootFastdfsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-fastdfs/src/main/java/com/zero/SpringBootFastdfsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-fastdfs/src/test/java/com/fastdfs/springbootfastdfs/SpringBootFastdfsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-fastdfs/src/test/java/com/zero/SpringBootFastdfsApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-fastdfs/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-web-restful/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SpringBoot$MessageControllerTest_saveMessage.ic" NAME="MessageControllerTest.saveMessage Coverage Results" MODIFIED="1561645951652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zero.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="124238705">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.113" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="conf" value="1" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="8" />
+          <entry key="kt" value="1" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HOCON" value="1" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="8" />
+          <entry key="Kotlin" value="1" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="conf" value="355" />
-          <entry key="xml" value="38" />
+          <entry key="java" value="2991" />
+          <entry key="xml" value="140" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HOCON" value="355" />
-          <entry key="XML" value="38" />
+          <entry key="JAVA" value="2991" />
+          <entry key="XML" value="140" />
         </counts>
       </usages-collector>
     </session>
@@ -93,24 +100,112 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-fastdfs/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="172">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/RestfulApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/model/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <folding>
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/repository/InMemoryMessageRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#718#727#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#1589#1590#0" expanded="true" />
+                <element signature="e#1610#1611#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/controller/MessageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2200#2201#0" expanded="true" />
+                <element signature="e#2256#2257#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-fastdfs/src/main/resources/fdfs_client.conf">
+        <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/src/test/java/com/zero/MessageControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/repository/MessageRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,6 +215,15 @@
       <list>
         <option value="$PROJECT_DIR$/spring-boot-fastdfs/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-fastdfs/src/main/resources/fdfs_client.conf" />
+        <option value="$PROJECT_DIR$/spring-boot-fastdfs/src/main/java/com/zero/fastdfs/FastDFSFile.java" />
+        <option value="$PROJECT_DIR$/spring-boot-fastdfs/src/main/java/com/zero/fastdfs/FastDFSClient.java" />
+        <option value="$PROJECT_DIR$/spring-boot-web-restful/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/RestfulApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/model/Message.java" />
+        <option value="$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/repository/MessageRepository.java" />
+        <option value="$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/repository/InMemoryMessageRepository.java" />
+        <option value="$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/controller/MessageController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-web-restful/src/test/java/com/zero/MessageControllerTest.java" />
       </list>
     </option>
   </component>
@@ -129,10 +233,31 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-fastdfs" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-fastdfs" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-fastdfs" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="641" />
-    <option name="y" value="187" />
-    <option name="width" value="1740" />
+    <option name="x" value="709" />
+    <option name="y" value="120" />
+    <option name="width" value="1335" />
     <option name="height" value="958" />
   </component>
   <component name="ProjectView">
@@ -140,7 +265,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,39 +275,114 @@
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="proficientspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-web-restful" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-fastdfs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-fastdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-web-restful" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_boot_file_upload" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-web-restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-web-restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-web-restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zero" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-web-restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zero" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-web-restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zero" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-web-restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-web-restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-web-restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-web-restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zero" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561560462149" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561646439780" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zero" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,7 +396,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MessageControllerTest.saveMessage">
+    <configuration name="MessageControllerTest.saveMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-web-restful" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.MessageControllerTest" />
+      <option name="METHOD_NAME" value="saveMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootFastdfsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-fastdfs" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zero.SpringBootFastdfsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootFastdfsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-fastdfs" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fastdfs.springbootfastdfs.SpringBootFastdfsApplication" />
@@ -205,6 +427,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootWebRestfulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-web-restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zero.springbootwebrestful.RestfulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringBootFastdfsApplication" />
+      <item itemvalue="Spring Boot.SpringBootWebRestfulApplication" />
+      <item itemvalue="Spring Boot.SpringBootFastdfsApplication (1)" />
+      <item itemvalue="JUnit.MessageControllerTest.saveMessage" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MessageControllerTest.saveMessage" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -217,19 +457,33 @@
       <option name="presentableId" value="Default" />
       <updated>1560914132860</updated>
       <workItem from="1560914135351" duration="51000" />
-      <workItem from="1561559397158" duration="981000" />
+      <workItem from="1561559397158" duration="1233000" />
+      <workItem from="1561624410086" duration="18053000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MessageControllerTest_saveMessage - 2019.06.27 at 22h 29m 14s.xml">
+      <configuration name="MessageControllerTest.saveMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageControllerTest_saveMessage - 2019.06.27 at 22h 34m 06s.xml">
+      <configuration name="MessageControllerTest.saveMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageControllerTest_saveMessage - 2019.06.27 at 22h 34m 35s.xml">
+      <configuration name="MessageControllerTest.saveMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageControllerTest_saveMessage - 2019.06.27 at 22h 36m 45s.xml">
+      <configuration name="MessageControllerTest.saveMessage" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1032000" />
+    <option name="totallyTimeSpent" value="19337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="641" y="187" width="1740" height="958" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25297618" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1684435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -237,20 +491,22 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49882352" weight="0.32928312" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49960783" weight="0.13122721" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6801706" weight="0.42039543" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.62899786" weight="0.39958376" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.37100214" side_tool="true" weight="0.39958376" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.2238806" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -259,8 +515,45 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32941177" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49882352" weight="0.32928312" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49960783" weight="0.13122721" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6801706" weight="0.42039543" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.62899786" visible="true" weight="0.39958376" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.37100214" side_tool="true" visible="true" weight="0.39958376" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.2238806" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32941177" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -269,9 +562,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/spring-boot-fastdfs/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -282,16 +573,226 @@
     <entry file="file://$PROJECT_DIR$/spring-boot-fastdfs/src/main/resources/fdfs_client.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastdfs/src/main/java/com/zero/fastdfs/FastDFSFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastdfs/src/main/java/com/zero/fastdfs/FastDFSClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="90" column="7" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/RestfulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/controller/MessageController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/repository/InMemoryMessageRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#718#727#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#1610#1611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/model/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2200#2201#0" expanded="true" />
+            <element signature="e#2256#2257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/src/main/java/com/zero/repository/MessageRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-web-restful/src/test/java/com/zero/MessageControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>spring-boot-fastdfs:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring-boot-fastdfs</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

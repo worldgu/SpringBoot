@@ -1,13 +1,13 @@
-package com.fastdfs.springbootfastdfs;
+package com.zero;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootFastdfsApplication {
+public class RestfulApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootFastdfsApplication.class, args);
+        SpringApplication.run(RestfulApplication.class, args);
     }
 
 }

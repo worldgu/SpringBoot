@@ -1,4 +1,4 @@
-package com.fastdfs.springbootfastdfs;
+package com.zero;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

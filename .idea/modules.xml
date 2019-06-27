@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-fastdfs/spring-boot-fastdfs.iml" filepath="$PROJECT_DIR$/spring-boot-fastdfs/spring-boot-fastdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-web-restful/spring-boot-web-restful.iml" filepath="$PROJECT_DIR$/spring-boot-web-restful/spring-boot-web-restful.iml" />
     </modules>
   </component>
 </project>
