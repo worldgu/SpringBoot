@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-fastdfs/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-web-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-swagger/pom.xml" />
       </list>
     </option>
   </component>
