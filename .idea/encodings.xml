@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-fastdfs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-swagger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-web-restful" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-websocket" charset="UTF-8" />
