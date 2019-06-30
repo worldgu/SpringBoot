@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-boot-websocket:war">
+    <output-path>$PROJECT_DIR$/spring-boot-websocket/target</output-path>
+    <root id="archive" name="spring-boot-websocket-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="spring-boot-websocket:war exploded" />
+    </root>
+  </artifact>
+</component>

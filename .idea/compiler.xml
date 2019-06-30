@@ -9,12 +9,14 @@
         <module name="spring-boot-fastdfs" />
         <module name="spring-boot-swagger" />
         <module name="spring-boot-web-restful" />
+        <module name="spring-boot-websocket" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-fastdfs" target="1.8" />
       <module name="spring-boot-swagger" target="1.8" />
       <module name="spring-boot-web-restful" target="1.8" />
+      <module name="spring-boot-websocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
