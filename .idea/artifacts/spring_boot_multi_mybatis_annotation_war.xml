@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-boot-multi-mybatis-annotation:war">
+    <output-path>$PROJECT_DIR$/spring-boot-multi-mybatis-annotation/target</output-path>
+    <root id="archive" name="spring-boot-multi-mybatis-annotation-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="spring-boot-multi-mybatis-annotation:war exploded" />
+    </root>
+  </artifact>
+</component>
