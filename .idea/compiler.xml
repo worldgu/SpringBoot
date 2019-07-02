@@ -10,6 +10,7 @@
         <module name="spring-boot-jdbc" />
         <module name="spring-boot-multi-jdbc" />
         <module name="spring-boot-multi-mybatis-xml" />
+        <module name="spring-boot-mybatis-annotation" />
         <module name="spring-boot-mybatis-xml" />
         <module name="spring-boot-swagger" />
         <module name="spring-boot-web-restful" />
@@ -21,6 +22,7 @@
       <module name="spring-boot-jdbc" target="1.8" />
       <module name="spring-boot-multi-jdbc" target="1.8" />
       <module name="spring-boot-multi-mybatis-xml" target="1.8" />
+      <module name="spring-boot-mybatis-annotation" target="1.8" />
       <module name="spring-boot-mybatis-xml" target="1.8" />
       <module name="spring-boot-swagger" target="1.8" />
       <module name="spring-boot-web-restful" target="1.8" />
