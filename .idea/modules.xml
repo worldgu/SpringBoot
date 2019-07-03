@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-fastdfs/spring-boot-fastdfs.iml" filepath="$PROJECT_DIR$/spring-boot-fastdfs/spring-boot-fastdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jdbc/spring-boot-jdbc.iml" filepath="$PROJECT_DIR$/spring-boot-jdbc/spring-boot-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-multi-jdbc/spring-boot-multi-jdbc.iml" filepath="$PROJECT_DIR$/spring-boot-multi-jdbc/spring-boot-multi-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-multi-mybatis-annotation/spring-boot-multi-mybatis-annotation.iml" filepath="$PROJECT_DIR$/spring-boot-multi-mybatis-annotation/spring-boot-multi-mybatis-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-multi-mybatis-xml/spring-boot-multi-mybatis-xml.iml" filepath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/spring-boot-multi-mybatis-xml.iml" />

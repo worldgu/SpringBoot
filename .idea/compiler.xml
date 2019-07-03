@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-fastdfs" />
         <module name="spring-boot-jdbc" />
+        <module name="spring-boot-jpa" />
         <module name="spring-boot-multi-jdbc" />
         <module name="spring-boot-multi-mybatis-annotation" />
         <module name="spring-boot-multi-mybatis-xml" />
@@ -21,6 +22,7 @@
     <bytecodeTargetLevel>
       <module name="spring-boot-fastdfs" target="1.8" />
       <module name="spring-boot-jdbc" target="1.8" />
+      <module name="spring-boot-jpa" target="1.8" />
       <module name="spring-boot-multi-jdbc" target="1.8" />
       <module name="spring-boot-multi-mybatis-annotation" target="1.8" />
       <module name="spring-boot-multi-mybatis-xml" target="1.8" />
