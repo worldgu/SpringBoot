@@ -13,9 +13,9 @@ import java.util.List;
  * @date ：Created in 2019/7/8 10:53
  * @modified By：
  */
-public interface UserDetailRepository extends JpaSpecificationExecutor<UserDetail>, JpaRepository<UserDetail,Long> {
+public interface UserDetailRepository extends JpaSpecificationExecutor<UserDetail>,JpaRepository<UserDetail, Long>  {
 
-    UserDetail findByHobby(String hobby);
+    UserDetail  findByHobby(String hobby);
 
     @Query("select u.userName as userName, u.email as email, d.introduction as introduction , d.hobby as hobby from User u , UserDetail d " +
             "where u.id=d.userId  and  d.hobby = ?1 ")

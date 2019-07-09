@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0e59d0f-bb80-4d7b-b9c0-77c4899fa292" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/model/UserDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/model/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/param/UserDetailParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/UserDetailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/service/UserDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/service/UserDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/JpaSpecificationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserDetailRepositoryTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserRepositoryTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/AddressRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/UserDetailRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/UserDetailRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/JpaSpecificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/JpaSpecificationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserDetailRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserDetailRepositoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserRepositoryTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-fastdfs/target/" />
@@ -62,12 +54,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="1-SNAPSHOT" value="1" />
+          <entry key="UserDetailRepository" value="1" />
           <entry key="UserRepository" value="2" />
-          <entry key="class" value="3" />
+          <entry key="class" value="5" />
           <entry key="cmd" value="1" />
           <entry key="conf" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="173" />
+          <entry key="java" value="186" />
           <entry key="js" value="1" />
           <entry key="kt" value="1" />
           <entry key="properties" value="20" />
@@ -77,23 +70,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
+          <entry key="CLASS" value="5" />
           <entry key="HOCON" value="1" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="173" />
+          <entry key="JAVA" value="186" />
           <entry key="JavaScript" value="1" />
           <entry key="Kotlin" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="20" />
           <entry key="SQL" value="4" />
-          <entry key="UML" value="3" />
+          <entry key="UML" value="4" />
           <entry key="XML" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="conf" value="355" />
-          <entry key="java" value="6914" />
+          <entry key="java" value="6920" />
           <entry key="properties" value="228" />
           <entry key="xml" value="294" />
         </counts>
@@ -101,7 +94,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HOCON" value="355" />
-          <entry key="JAVA" value="6914" />
+          <entry key="JAVA" value="6920" />
           <entry key="Properties" value="228" />
           <entry key="XML" value="294" />
         </counts>
@@ -111,10 +104,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserDetailRepositoryTests.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/service/UserDetailServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+            <state relative-caret-position="138">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,64 +116,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserRepositoryTests.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/UserDetailRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-191">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="342">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/param/UserDetailParam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/model/Address.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/model/UserDetail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -194,11 +136,150 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.zero.repository.UserDetailRepository">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.zero.repository.UserDetailRepository</OriginalElement>
+              <nodes>
+                <node x="0.0" y="240.0">org.springframework.data.repository.query.QueryByExampleExecutor</node>
+                <node x="216.0" y="240.0">org.springframework.data.repository.PagingAndSortingRepository</node>
+                <node x="148.0" y="400.0">com.zero.repository.UserDetailRepository</node>
+                <node x="179.79166666666669" y="80.0">org.springframework.data.repository.Repository</node>
+                <node x="187.79166666666669" y="0.0">org.springframework.stereotype.Indexed</node>
+                <node x="200.54166666666669" y="160.0">org.springframework.data.repository.CrudRepository</node>
+                <node x="258.5" y="320.0">org.springframework.data.jpa.repository.JpaRepository</node>
+                <node x="47.5" y="320.0">org.springframework.data.jpa.repository.JpaSpecificationExecutor</node>
+                <node x="310.7916666666667" y="80.0">org.springframework.data.repository.NoRepositoryBean</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.zero.repository.UserDetailRepository" target="org.springframework.data.jpa.repository.JpaRepository">
+                  <point x="42.75" y="-15.0" />
+                  <point x="276.25" y="375.0" />
+                  <point x="324.0" y="375.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.NoRepositoryBean">
+                  <point x="43.666666666666686" y="-15.0" />
+                  <point x="367.6666666666667" y="295.0" />
+                  <point x="442.5" y="295.0" />
+                  <point x="52.66666666666664" y="15.0" />
+                </edge>
+                <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.Repository">
+                  <point x="-34.75" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.query.QueryByExampleExecutor">
+                  <point x="-43.66666666666666" y="-15.0" />
+                  <point x="280.3333333333333" y="295.0" />
+                  <point x="98.0" y="295.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.springframework.data.repository.PagingAndSortingRepository" target="org.springframework.data.repository.CrudRepository">
+                  <point x="-54.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.PagingAndSortingRepository">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.springframework.data.repository.Repository" target="org.springframework.stereotype.Indexed">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.NoRepositoryBean">
+                  <point x="34.75" y="-15.0" />
+                  <point x="304.7916666666667" y="135.0" />
+                  <point x="337.125" y="135.0" />
+                  <point x="-52.66666666666666" y="15.0" />
+                </edge>
+                <edge source="com.zero.repository.UserDetailRepository" target="org.springframework.data.jpa.repository.JpaSpecificationExecutor">
+                  <point x="-42.75" y="-15.0" />
+                  <point x="190.75" y="375.0" />
+                  <point x="143.0" y="375.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.springframework.data.repository.PagingAndSortingRepository" target="org.springframework.data.repository.NoRepositoryBean">
+                  <point x="54.0" y="-15.0" />
+                  <point x="378.0" y="215.0" />
+                  <point x="383.875" y="215.0" />
+                  <point x="383.875" y="135.0" />
+                  <point x="389.7916666666667" y="135.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-8.0" y="94.5" />
+              <SelectedNodes>
+                <node>org.springframework.data.jpa.repository.JpaSpecificationExecutor</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-jpa/2.1.9.RELEASE/spring-data-jpa-2.1.9.RELEASE.jar!/org/springframework/data/jpa/repository/support/JpaRepositoryImplementation.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-jpa/2.1.9.RELEASE/spring-data-jpa-2.1.9.RELEASE.jar!/org/springframework/data/jpa/repository/JpaSpecificationExecutor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/JpaSpecificationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            <state relative-caret-position="312">
+              <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/service/UserDetailService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserRepositoryTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1474">
+              <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserDetailRepositoryTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -275,16 +356,16 @@
         <option value="$PROJECT_DIR$/spring-boot-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/model/User.java" />
         <option value="$PROJECT_DIR$/spring-boot-jpa/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/AddressRepository.java" />
+        <option value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/SpringBootJpaApplication.java" />
         <option value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/param/UserDetailParam.java" />
         <option value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/service/UserDetailService.java" />
         <option value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/service/UserDetailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/JpaSpecificationTests.java" />
-        <option value="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserDetailRepositoryTests.java" />
         <option value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/UserDetailRepository.java" />
-        <option value="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserRepositoryTests.java" />
         <option value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/SpringBootJpaApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/AddressRepository.java" />
+        <option value="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserRepositoryTests.java" />
+        <option value="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserDetailRepositoryTests.java" />
+        <option value="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/JpaSpecificationTests.java" />
       </list>
     </option>
   </component>
@@ -315,11 +396,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="514" />
-    <option name="y" value="29" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="483" />
+    <option name="y" value="96" />
     <option name="width" value="1335" />
-    <option name="height" value="1039" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -446,6 +527,17 @@
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
               <item name="spring-boot-jpa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zero" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -500,7 +592,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562570850217" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562643618212" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -520,11 +612,11 @@
       <recent name="com.zero.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-jpa\src\main\java\com\zero\service" />
+      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-jpa\src\main\java\com\zero\repository" />
+      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-jpa\src\main\java\com\zero\param" />
+      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-jpa\src\main\java\com\zero\model" />
       <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-jpa\src\test\java\com\zero" />
-      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-jpa\src\main\java\com\zero" />
-      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-multi-mybatis-annotation\src\test\java\com\zero" />
-      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-multi-mybatis-annotation\src\main\java\com\zero" />
-      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-mybatis-annotation\src\main\java\com\zero" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -539,34 +631,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserRepositoryTests.testSave">
-    <configuration name="User1MapperTest.testInsert (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-multi-mybatis-annotation" />
+  <component name="RunManager" selected="JUnit.UserDetailRepositoryTests.testUserInfo">
+    <configuration name="JpaSpecificationTests.testFindByCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.mapper.*" />
+          <option name="PATTERN" value="com.zero.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zero.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.mapper.User1MapperTest" />
-      <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="User2MapperTest.testInsert (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-multi-mybatis-annotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.mapper.User2MapperTest" />
-      <option name="METHOD_NAME" value="testInsert" />
+      <option name="PACKAGE_NAME" value="com.zero.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.repository.JpaSpecificationTests" />
+      <option name="METHOD_NAME" value="testFindByCondition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -588,17 +664,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMapperTest.testInsert (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mybatis-annotation" />
+    <configuration name="UserDetailRepositoryTests.testSaveUserDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.mapper.*" />
+          <option name="PATTERN" value="com.zero.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zero.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="testInsert" />
+      <option name="PACKAGE_NAME" value="com.zero.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.repository.UserDetailRepositoryTests" />
+      <option name="METHOD_NAME" value="testSaveUserDetail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDetailRepositoryTests.testUserInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.repository.UserDetailRepositoryTests" />
+      <option name="METHOD_NAME" value="testUserInfo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -717,19 +809,19 @@
       <item itemvalue="Spring Boot.SpringBootMybatisAnnotationApplication" />
       <item itemvalue="Spring Boot.SpringBootMultiMybatisAnnotationApplication" />
       <item itemvalue="Spring Boot.SpringBootJpaApplication" />
-      <item itemvalue="JUnit.UserMapperTest.testInsert (2)" />
-      <item itemvalue="JUnit.User1MapperTest.testInsert (1)" />
-      <item itemvalue="JUnit.User2MapperTest.testInsert (1)" />
       <item itemvalue="JUnit.UserRepositoryTests.testSave" />
       <item itemvalue="JUnit.UserDetailRepositoryTests.testSaveAddress" />
+      <item itemvalue="JUnit.JpaSpecificationTests.testFindByCondition" />
+      <item itemvalue="JUnit.UserDetailRepositoryTests.testSaveUserDetail" />
+      <item itemvalue="JUnit.UserDetailRepositoryTests.testUserInfo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDetailRepositoryTests.testUserInfo" />
+        <item itemvalue="JUnit.JpaSpecificationTests.testFindByCondition" />
+        <item itemvalue="JUnit.UserDetailRepositoryTests.testSaveUserDetail" />
         <item itemvalue="JUnit.UserRepositoryTests.testSave" />
         <item itemvalue="JUnit.UserDetailRepositoryTests.testSaveAddress" />
-        <item itemvalue="JUnit.User2MapperTest.testInsert (1)" />
-        <item itemvalue="JUnit.User1MapperTest.testInsert (1)" />
-        <item itemvalue="JUnit.UserMapperTest.testInsert (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -749,26 +841,11 @@
       <workItem from="1561711460881" duration="10161000" />
       <workItem from="1561898193087" duration="4551000" />
       <workItem from="1561942028058" duration="23769000" />
-      <workItem from="1562550628175" duration="8522000" />
+      <workItem from="1562550628175" duration="14252000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserMapperTest_testUpdate - 2019.07.02 at 19h 50m 03s.xml">
-      <configuration name="UserMapperTest.testUpdate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_testInsert_(2) - 2019.07.02 at 19h 53m 47s.xml">
-      <configuration name="UserMapperTest.testInsert (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_testInsert_(2) - 2019.07.02 at 19h 59m 16s.xml">
-      <configuration name="UserMapperTest.testInsert (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_testInsert_(2) - 2019.07.02 at 20h 00m 42s.xml">
-      <configuration name="UserMapperTest.testInsert (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="User1MapperTest_testInsert_(1) - 2019.07.02 at 21h 00m 46s.xml">
-      <configuration name="User1MapperTest.testInsert (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="User2MapperTest_testInsert_(1) - 2019.07.02 at 21h 01m 33s.xml">
       <configuration name="User2MapperTest.testInsert (1)" configurationId="JUnit" />
     </history-entry>
@@ -784,9 +861,24 @@
     <history-entry file="UserRepositoryTests_testSave - 2019.07.08 at 15h 24m 45s.xml">
       <configuration name="UserRepositoryTests.testSave" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JpaSpecificationTests_testFindByCondition - 2019.07.09 at 11h 14m 41s.xml">
+      <configuration name="JpaSpecificationTests.testFindByCondition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailRepositoryTests_testSaveUserDetail - 2019.07.09 at 11h 26m 46s.xml">
+      <configuration name="UserDetailRepositoryTests.testSaveUserDetail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailRepositoryTests_testUserInfo - 2019.07.09 at 11h 27m 09s.xml">
+      <configuration name="UserDetailRepositoryTests.testUserInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JpaSpecificationTests_testFindByCondition - 2019.07.09 at 11h 28m 01s.xml">
+      <configuration name="JpaSpecificationTests.testFindByCondition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDetailRepositoryTests_testUserInfo - 2019.07.09 at 11h 31m 56s.xml">
+      <configuration name="UserDetailRepositoryTests.testUserInfo" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67677000" />
+    <option name="totallyTimeSpent" value="73407000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -798,9 +890,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="514" y="29" width="1335" height="1039" extended-state="0" />
+    <frame x="621" y="97" width="1335" height="1042" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24313726" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24313726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -812,21 +905,21 @@
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49413645" weight="0.3298647" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49960783" weight="0.13122721" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.9067164" weight="0.30489075" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.8352941" visible="true" weight="0.14823009" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.90618336" weight="0.17273673" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.8345098" visible="true" weight="0.26240352" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4989339" weight="0.3298647" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.16470589" side_tool="true" visible="true" weight="0.14823009" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.1654902" side_tool="true" visible="true" weight="0.26240352" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.24941176" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.24941176" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
@@ -851,31 +944,16 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/JpaSpecificationTests.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-test/5.1.8.RELEASE/spring-test-5.1.8.RELEASE-sources.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="189" selection-start-line="189" selection-end-line="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/zero/param/PageParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/zero/param/UserParam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1146,27 +1224,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/service/UserDetailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/service/UserDetailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1194,57 +1255,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/AddressRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/UserDetailRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/JAVA1.8/JDK1.8/src.zip!/java/text/DateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
           <caret line="568" column="35" selection-start-line="568" selection-start-column="35" selection-end-line="568" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/param/UserDetailParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/model/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1262,6 +1276,170 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/param/UserDetailParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/AddressRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.zero.repository.UserDetailRepository">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.zero.repository.UserDetailRepository</OriginalElement>
+          <nodes>
+            <node x="0.0" y="240.0">org.springframework.data.repository.query.QueryByExampleExecutor</node>
+            <node x="216.0" y="240.0">org.springframework.data.repository.PagingAndSortingRepository</node>
+            <node x="148.0" y="400.0">com.zero.repository.UserDetailRepository</node>
+            <node x="179.79166666666669" y="80.0">org.springframework.data.repository.Repository</node>
+            <node x="187.79166666666669" y="0.0">org.springframework.stereotype.Indexed</node>
+            <node x="200.54166666666669" y="160.0">org.springframework.data.repository.CrudRepository</node>
+            <node x="258.5" y="320.0">org.springframework.data.jpa.repository.JpaRepository</node>
+            <node x="47.5" y="320.0">org.springframework.data.jpa.repository.JpaSpecificationExecutor</node>
+            <node x="310.7916666666667" y="80.0">org.springframework.data.repository.NoRepositoryBean</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.zero.repository.UserDetailRepository" target="org.springframework.data.jpa.repository.JpaRepository">
+              <point x="42.75" y="-15.0" />
+              <point x="276.25" y="375.0" />
+              <point x="324.0" y="375.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.NoRepositoryBean">
+              <point x="43.666666666666686" y="-15.0" />
+              <point x="367.6666666666667" y="295.0" />
+              <point x="442.5" y="295.0" />
+              <point x="52.66666666666664" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.Repository">
+              <point x="-34.75" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.query.QueryByExampleExecutor">
+              <point x="-43.66666666666666" y="-15.0" />
+              <point x="280.3333333333333" y="295.0" />
+              <point x="98.0" y="295.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.repository.PagingAndSortingRepository" target="org.springframework.data.repository.CrudRepository">
+              <point x="-54.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.PagingAndSortingRepository">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.repository.Repository" target="org.springframework.stereotype.Indexed">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.NoRepositoryBean">
+              <point x="34.75" y="-15.0" />
+              <point x="304.7916666666667" y="135.0" />
+              <point x="337.125" y="135.0" />
+              <point x="-52.66666666666666" y="15.0" />
+            </edge>
+            <edge source="com.zero.repository.UserDetailRepository" target="org.springframework.data.jpa.repository.JpaSpecificationExecutor">
+              <point x="-42.75" y="-15.0" />
+              <point x="190.75" y="375.0" />
+              <point x="143.0" y="375.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.repository.PagingAndSortingRepository" target="org.springframework.data.repository.NoRepositoryBean">
+              <point x="54.0" y="-15.0" />
+              <point x="378.0" y="215.0" />
+              <point x="383.875" y="215.0" />
+              <point x="383.875" y="135.0" />
+              <point x="389.7916666666667" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-8.0" y="94.5" />
+          <SelectedNodes>
+            <node>org.springframework.data.jpa.repository.JpaSpecificationExecutor</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-jpa/2.1.9.RELEASE/spring-data-jpa-2.1.9.RELEASE.jar!/org/springframework/data/jpa/repository/support/JpaRepositoryImplementation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-jpa/2.1.9.RELEASE/spring-data-jpa-2.1.9.RELEASE.jar!/org/springframework/data/jpa/repository/JpaSpecificationExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/service/UserDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/JpaSpecificationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/service/UserDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/model/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1271,8 +1449,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserRepositoryTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="1474">
+          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/UserDetailRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1281,18 +1469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserDetailRepositoryTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/JpaSpecificationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="505">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
