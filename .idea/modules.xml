@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-multi-mybatis-annotation/spring-boot-multi-mybatis-annotation.iml" filepath="$PROJECT_DIR$/spring-boot-multi-mybatis-annotation/spring-boot-multi-mybatis-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-multi-mybatis-xml/spring-boot-multi-mybatis-xml.iml" filepath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/spring-boot-multi-mybatis-xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/spring-boot-mybatis-annotation.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-annotation/spring-boot-mybatis-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/spring-boot-mybatis-annotation-druid.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/spring-boot-mybatis-annotation-druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-xml/spring-boot-mybatis-xml.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-xml/spring-boot-mybatis-xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-swagger/spring-boot-swagger.iml" filepath="$PROJECT_DIR$/spring-boot-swagger/spring-boot-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-web-restful/spring-boot-web-restful.iml" filepath="$PROJECT_DIR$/spring-boot-web-restful/spring-boot-web-restful.iml" />

@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/spring-boot-multi-mybatis-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-multi-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/pom.xml" />
       </list>
     </option>
   </component>
