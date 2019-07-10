@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0e59d0f-bb80-4d7b-b9c0-77c4899fa292" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_boot_jpa_druid_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_boot_jpa_druid_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/model/UserDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/model/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/param/UserDetailParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/repository/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/repository/UserDetailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/service/UserDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/service/UserDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/web/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-druid/src/test/java/com/zero/repository/JpaSpecificationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-druid/src/test/java/com/zero/repository/UserDetailRepositoryTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa-druid/src/test/java/com/zero/repository/UserRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_boot_multi_jpa_druid_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_boot_multi_jpa_druid_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/PrimaryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/SecondaryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/druid/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/druid/DruidConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/druid/DruidDBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/druid/DruidOneConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/druid/DruidTwoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/repository/test1/UserTest1Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/repository/test2/UserTest2Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/test/java/com/zero/repository/UserRepositoryTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -40,6 +39,7 @@
     <ignored path="$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-multi-mybatis-annotation-druid/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-jpa-druid/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-multi-jpa-druid/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,15 +58,15 @@
     <session id="124238705">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.113" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -79,12 +79,13 @@
           <entry key="conf" value="1" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="251" />
+          <entry key="java" value="266" />
           <entry key="js" value="1" />
           <entry key="kt" value="1" />
-          <entry key="properties" value="29" />
+          <entry key="mvnw" value="1" />
+          <entry key="properties" value="30" />
           <entry key="sql" value="4" />
-          <entry key="xml" value="36" />
+          <entry key="xml" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -93,29 +94,29 @@
           <entry key="HOCON" value="1" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="251" />
+          <entry key="JAVA" value="266" />
           <entry key="JavaScript" value="1" />
           <entry key="Kotlin" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="29" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="30" />
           <entry key="SQL" value="4" />
           <entry key="UML" value="4" />
-          <entry key="XML" value="36" />
+          <entry key="XML" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="conf" value="355" />
-          <entry key="java" value="7028" />
-          <entry key="properties" value="331" />
+          <entry key="java" value="7050" />
+          <entry key="properties" value="351" />
           <entry key="xml" value="299" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HOCON" value="355" />
-          <entry key="JAVA" value="7028" />
-          <entry key="Properties" value="331" />
+          <entry key="JAVA" value="7050" />
+          <entry key="Properties" value="351" />
           <entry key="XML" value="299" />
         </counts>
       </usages-collector>
@@ -124,10 +125,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/repository/UserRepository.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/druid/DruidDBConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="273">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,10 +137,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/service/UserDetailService.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/druid/DruidOneConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="198">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,10 +149,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/service/UserDetailServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/druid/DruidTwoConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="31" column="71" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
+            <state relative-caret-position="242">
+              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,10 +161,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/web/UserController.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/web/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,54 +173,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/test/java/com/zero/SpringBootMultiJpaDruidApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="132">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/spring-boot-jpa-druid.iml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/SpringBootJpaDruidApplication.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/test/java/com/zero/repository/UserRepositoryTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/test/java/com/zero/repository/UserRepositoryTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/test/java/com/zero/repository/JpaSpecificationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/test/java/com/zero/repository/UserDetailRepositoryTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            <state relative-caret-position="660">
+              <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/PrimaryConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/repository/test1/UserTest1Repository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/SecondaryConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -252,19 +263,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/zero/repository/AddressRepository.java" />
-        <option value="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserRepositoryTests.java" />
-        <option value="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/UserDetailRepositoryTests.java" />
-        <option value="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/zero/repository/JpaSpecificationTests.java" />
-        <option value="$PROJECT_DIR$/spring-boot-multi-jpa/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-multi-jpa/src/main/java/com/zero/ServletInitializer.java" />
-        <option value="$PROJECT_DIR$/spring-boot-multi-jpa/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-boot-multi-jpa/src/main/java/com/zero/model/User.java" />
-        <option value="$PROJECT_DIR$/spring-boot-multi-jpa/src/main/java/com/zero/repository/test1/UserTest1Repository.java" />
-        <option value="$PROJECT_DIR$/spring-boot-multi-jpa/src/main/java/com/zero/repository/test2/UserTest2Repository.java" />
-        <option value="$PROJECT_DIR$/spring-boot-multi-jpa/src/main/java/com/zero/config/SecondaryConfig.java" />
-        <option value="$PROJECT_DIR$/spring-boot-multi-jpa/src/main/java/com/zero/config/PrimaryConfig.java" />
         <option value="$PROJECT_DIR$/spring-boot-multi-jpa/src/test/java/com/zero/SpringBootMultiJpaApplicationTests.java" />
         <option value="$PROJECT_DIR$/spring-boot-multi-jpa/src/test/java/com/zero/repository/UserRepositoryTests.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/pom.xml" />
@@ -303,6 +301,19 @@
         <option value="$PROJECT_DIR$/spring-boot-jpa-druid/src/test/java/com/zero/repository/JpaSpecificationTests.java" />
         <option value="$PROJECT_DIR$/spring-boot-jpa-druid/src/test/java/com/zero/repository/UserRepositoryTests.java" />
         <option value="$PROJECT_DIR$/spring-boot-jpa-druid/src/test/java/com/zero/repository/UserDetailRepositoryTests.java" />
+        <option value="$PROJECT_DIR$/spring-boot-multi-jpa-druid/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/ServletInitializer.java" />
+        <option value="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/druid/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/SecondaryConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/PrimaryConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/model/User.java" />
+        <option value="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/repository/test1/UserTest1Repository.java" />
+        <option value="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/repository/test2/UserTest2Repository.java" />
+        <option value="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/druid/DruidTwoConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/web/UserController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/test/java/com/zero/SpringBootMultiJpaDruidApplicationTests.java" />
+        <option value="$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/test/java/com/zero/repository/UserRepositoryTests.java" />
       </list>
     </option>
   </component>
@@ -333,9 +344,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="315" />
-    <option name="y" value="110" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="592" />
+    <option name="y" value="113" />
     <option name="width" value="1339" />
     <option name="height" value="1048" />
   </component>
@@ -373,6 +384,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -384,25 +396,25 @@
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-multi-jpa-druid" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-multi-jpa-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-multi-jpa-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-multi-jpa-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -410,7 +422,7 @@
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-multi-jpa-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -419,7 +431,7 @@
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-multi-jpa-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -429,7 +441,7 @@
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-multi-jpa-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -440,51 +452,7 @@
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="param" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-multi-jpa-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -492,14 +460,14 @@
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-multi-jpa-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-multi-jpa-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -507,7 +475,7 @@
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-multi-jpa-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -516,7 +484,7 @@
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-multi-jpa-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -526,7 +494,7 @@
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-jpa-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-multi-jpa-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -538,7 +506,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -548,31 +515,31 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562667763866" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562747433732" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/工作文档/代码/jssw_credit_gr" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-jdbc\src\test\java\com\zero" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zero" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-multi-jpa-druid\src\test\java\com\zero" />
+      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-multi-jpa-druid\src\main\java\com\zero" />
+      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-jpa-druid\src\test\java\com\zero" />
+      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-jpa-druid\src\main\java\com\zero" />
+      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-multi-mybatis-annotation-druid\src\test\java\com\zero" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zero.model" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-jpa-druid\src\test\java\com\zero" />
-      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-jpa-druid\src\main\java\com\zero" />
-      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-multi-mybatis-annotation-druid\src\test\java\com\zero" />
-      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-multi-mybatis-annotation-druid\src\main\java\com\zero" />
-      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-mybatis-annotation-druid\src\test\java\com\zero" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEAJavaWorkSpace\SpringBoot\spring-boot-jdbc\src\test\java\com\zero" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -587,7 +554,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootJpaDruidApplication">
+  <component name="RunManager" selected="Spring Boot.SpringBootMultiJpaDruidApplication">
     <configuration name="JpaSpecificationTests.testFindByCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-jpa" />
       <extension name="coverage">
@@ -717,6 +684,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootMultiJpaDruidApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-multi-jpa-druid" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zero.SpringBootMultiJpaDruidApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootMultiMybatisAnnotationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-multi-mybatis-annotation" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zero.SpringBootMultiMybatisAnnotationApplication" />
@@ -794,14 +768,15 @@
       <item itemvalue="Spring Boot.SpringBootMultiMybatisAnnotationApplication" />
       <item itemvalue="Spring Boot.SpringBootJpaApplication" />
       <item itemvalue="Spring Boot.SpringBootMultiJpaApplication" />
+      <item itemvalue="Spring Boot.SpringBootMybatisAnnotationDruidApplication" />
+      <item itemvalue="Spring Boot.SpringBootMultiMybatisAnnotationDruidApplication" />
+      <item itemvalue="Spring Boot.SpringBootJpaDruidApplication" />
       <item itemvalue="JUnit.JpaSpecificationTests.testFindByCondition" />
       <item itemvalue="JUnit.UserDetailRepositoryTests.testSaveUserDetail" />
       <item itemvalue="JUnit.UserDetailRepositoryTests.testUserInfo" />
       <item itemvalue="JUnit.UserRepositoryTests.testSave (1)" />
       <item itemvalue="JUnit.UserRepositoryTests.testDelete" />
-      <item itemvalue="Spring Boot.SpringBootMybatisAnnotationDruidApplication" />
-      <item itemvalue="Spring Boot.SpringBootMultiMybatisAnnotationDruidApplication" />
-      <item itemvalue="Spring Boot.SpringBootJpaDruidApplication" />
+      <item itemvalue="Spring Boot.SpringBootMultiJpaDruidApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -830,6 +805,7 @@
       <workItem from="1561898193087" duration="4551000" />
       <workItem from="1561942028058" duration="23769000" />
       <workItem from="1562550628175" duration="14252000" />
+      <workItem from="1562720697967" duration="3935000" />
     </task>
     <servers />
   </component>
@@ -866,7 +842,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82012000" />
+    <option name="totallyTimeSpent" value="86636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -878,10 +854,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="315" y="110" width="1339" height="1048" extended-state="1" />
+    <frame x="575" y="67" width="1339" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23455825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23846756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -894,14 +870,14 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49960783" weight="0.13122721" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.86473805" weight="0.18181819" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.83346367" visible="true" weight="0.30887187" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.83346367" weight="0.30887187" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4989339" weight="0.3298647" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.16653636" side_tool="true" visible="true" weight="0.30887187" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.16653636" side_tool="true" visible="true" weight="0.04709748" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.32941177" />
@@ -942,146 +918,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/src/main/java/com/zero/enums/UserSexEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/src/main/java/com/zero/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/src/main/java/com/zero/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/src/main/java/com/zero/param/PageParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/src/main/java/com/zero/param/UserParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/src/main/java/com/zero/result/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/src/main/java/com/zero/web/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/src/test/java/com/zero/mapper/UserMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/src/main/java/com/zero/mapper/UserSql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-388">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/src/main/java/com/zero/SpringBootMybatisAnnotationDruidApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-multi-mybatis-xml/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-multi-mybatis-annotation/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-multi-mybatis-annotation/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-multi-mybatis-annotation/src/main/java/com/zero/datasource/DataSource1Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-multi-mybatis-annotation-druid/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-multi-mybatis-annotation-druid/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -1117,9 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1127,9 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1137,9 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-279">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1147,9 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-441">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,9 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-440">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,9 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-133">
           <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1191,9 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1225,9 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1235,9 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1245,9 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1262,9 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1272,9 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="60" lean-forward="true" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1282,15 +1082,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="154">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1300,7 +1097,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/service/UserDetailService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="88">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1310,7 +1107,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/service/UserDetailServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
+        <state relative-caret-position="440">
           <caret line="31" column="71" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1320,28 +1117,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/web/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/spring-boot-jpa-druid.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/test/java/com/zero/repository/UserRepositoryTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
           <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/test/java/com/zero/repository/JpaSpecificationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1355,17 +1149,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/test/java/com/zero/repository/JpaSpecificationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/main/java/com/zero/SpringBootJpaDruidApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/spring-boot-jpa-druid.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="63" column="57" lean-forward="true" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa-druid/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/druid/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="3" column="48" lean-forward="true" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/SpringBootMultiJpaDruidApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/druid/DruidConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/repository/test2/UserTest2Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/repository/test1/UserTest1Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/SecondaryConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/PrimaryConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/druid/DruidDBConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/druid/DruidOneConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/config/druid/DruidTwoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/test/java/com/zero/SpringBootMultiJpaDruidApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/main/java/com/zero/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/src/test/java/com/zero/repository/UserRepositoryTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

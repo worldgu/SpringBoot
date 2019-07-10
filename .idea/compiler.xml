@@ -12,6 +12,7 @@
         <module name="spring-boot-jpa-druid" />
         <module name="spring-boot-multi-jdbc" />
         <module name="spring-boot-multi-jpa" />
+        <module name="spring-boot-multi-jpa-druid" />
         <module name="spring-boot-multi-mybatis-annotation" />
         <module name="spring-boot-multi-mybatis-annotation-druid" />
         <module name="spring-boot-multi-mybatis-xml" />
@@ -30,6 +31,7 @@
       <module name="spring-boot-jpa-druid" target="1.8" />
       <module name="spring-boot-multi-jdbc" target="1.8" />
       <module name="spring-boot-multi-jpa" target="1.8" />
+      <module name="spring-boot-multi-jpa-druid" target="1.8" />
       <module name="spring-boot-multi-mybatis-annotation" target="1.8" />
       <module name="spring-boot-multi-mybatis-annotation-druid" target="1.8" />
       <module name="spring-boot-multi-mybatis-xml" target="1.8" />
