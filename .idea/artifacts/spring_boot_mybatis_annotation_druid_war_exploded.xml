@@ -1,6 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="spring-boot-mybatis-annotation-druid:war exploded">
     <output-path>$PROJECT_DIR$/spring-boot-mybatis-annotation-druid/target/spring-boot-mybatis-annotation-druid-0.0.1-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>spring-boot-mybatis-annotation-druid</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">

@@ -3,10 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proficientspringboot/proficientspringboot.iml" filepath="$PROJECT_DIR$/proficientspringboot/proficientspringboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-fastdfs/spring-boot-fastdfs.iml" filepath="$PROJECT_DIR$/spring-boot-fastdfs/spring-boot-fastdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jdbc/spring-boot-jdbc.iml" filepath="$PROJECT_DIR$/spring-boot-jdbc/spring-boot-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jpa-druid/spring-boot-jpa-druid.iml" filepath="$PROJECT_DIR$/spring-boot-jpa-druid/spring-boot-jpa-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-jpa-thymeleaf/spring-boot-jpa-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-jpa-thymeleaf/spring-boot-jpa-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-multi-jdbc/spring-boot-multi-jdbc.iml" filepath="$PROJECT_DIR$/spring-boot-multi-jdbc/spring-boot-multi-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-multi-jpa/spring-boot-multi-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-multi-jpa/spring-boot-multi-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-multi-jpa-druid/spring-boot-multi-jpa-druid.iml" filepath="$PROJECT_DIR$/spring-boot-multi-jpa-druid/spring-boot-multi-jpa-druid.iml" />

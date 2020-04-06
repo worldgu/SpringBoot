@@ -1,6 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="war" name="spring-boot-multi-jpa:war">
     <output-path>$PROJECT_DIR$/spring-boot-multi-jpa/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-boot-multi-jpa</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="archive" name="spring-boot-multi-jpa-0.0.1-SNAPSHOT.war">
       <element id="artifact" artifact-name="spring-boot-multi-jpa:war exploded" />
     </root>

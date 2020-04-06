@@ -5,7 +5,7 @@ import com.zero.model.User;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;
-
+@Mapper
 public interface User1Mapper {
 
 	@Select("SELECT * FROM users")
